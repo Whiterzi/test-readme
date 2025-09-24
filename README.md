@@ -16,7 +16,9 @@ This guide will walk you through installing and configuring the Quire node for n
 To access Quire's API, you'll need to create a Quire app that will provide the necessary authentication credentials.
 
 1. Follow the comprehensive tutorial: [Create Your Own App with Quire API](https://quire.io/blog/p/Create-Your-Quire-App-with-Quire-API.html)
-2. **Important**: Do NOT activate "Public Distribution" if this app is for personal use only, as this will make your app visible in the Quire App Directory
+2. Set the **Redirect URL** to https://your-n8n-instance.com/rest/oauth2-credential/callback in your Quire app settings.
+
+**Important**: Do NOT activate "Public Distribution" if this app is for personal use only, as this will make your app visible in the Quire App Directory
 
 ### 2. Install the Quire Node in n8n
 
@@ -54,7 +56,7 @@ Set up authentication credentials to allow n8n to securely access your Quire acc
 
 3. **Configure OAuth Settings**:
    - Enter your **Client ID** and **Client Secret** from your Quire app
-   - Copy the **OAuth Redirect URL** shown in n8n
+   - Ensure that the **Redirect URL** in your Quire app matches the **OAuth Redirect URL** displayed in the n8n credential dialog.
    - Add this redirect URL to your Quire app's configuration
 
    ![oauth-detail](./img/oauth-detail.png)
