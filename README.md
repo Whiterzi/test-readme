@@ -57,7 +57,6 @@ Set up authentication credentials to allow n8n to securely access your Quire acc
 3. **Configure OAuth Settings**:
    - Enter your **Client ID** and **Client Secret** from your Quire app
    - Ensure that the **Redirect URL** in your Quire app matches the **OAuth Redirect URL** displayed in the n8n credential dialog.
-   - Add this redirect URL to your Quire app's configuration
 
    ![oauth-detail](./img/oauth-detail.png)
 
