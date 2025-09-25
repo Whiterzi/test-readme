@@ -34,7 +34,7 @@ Follow these steps to install the Quire community node:
 
    ![community-node-n8n](./img/community-node-n8n.png)
 
-3. **Install the Package**: Enter the npm package name `n8n-nodes-quire` and click **Install**
+3. **Install the Package**: Enter the npm package name [@quire-io/n8n-nodes-quire](https://www.npmjs.com/package/@quire-io/n8n-nodes-quire) and click **Install**
 
    ![install-node](./img/install-community-node.png)
 
